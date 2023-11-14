@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+legend {
+    color: #fff;
+}
+
+form {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+fieldset {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  color: #fff;
+}
+
+input {
+  outline: none;
+  background: none;
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 300px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+button, input[type="submit"] {
+    background: #222;
+    cursor: pointer;
+  }
+
+  button:hover, input[type="submit"]:hover {
+    background: #444;
+  }
+
+button {
+  background: #222;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.45rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  background: #444;
+}
+
+#result {
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+/* Adjusted style to make "Berechnen" buttons stick to the right */
+p {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2px;
+}
+
+#show-history {
+  background: #222;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.55rem;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#show-history:hover {
+  background: #444;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #fff;
+  }
